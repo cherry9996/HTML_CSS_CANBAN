@@ -479,17 +479,21 @@ a{
 }
 .list-oil{
 	display: flex;
-	margin-left: -20px;
+	margin-left: -40px;
 }
 .list-oil .item-oil{
-	width: calc(100% * (1/4) - 20px);
-	margin: 0 0 0 20px;
+	width: calc(100% * (1/4) - 40px);
+	margin: 0 0 0 40px;
+}
+.list-oil .item-oil:hover{
+	background-color: #fff;
+	box-shadow: 1px 1px 4px grey;
 }
 
 .list-oil .item-oil .bag-img{
 	overflow: hidden;
-	width: 200px;
-	min-height: 200px;
+	width: 220px;
+	min-height: 220px;
 }
 .list-oil .item-oil .bag-img img{
 	width: 100%; 
@@ -500,11 +504,9 @@ a{
  	transition: ease all 3.0s;
 }
 .list-oil .item-oil .info-oil{
-	width: 200px;
-}
-.list-oil .item-oil .info-oil .flickity{
 	text-align: center;
-} 
+	width: 220px;
+}
 
 .list-oil .item-oil  span:hover{
 	color: #d87631;

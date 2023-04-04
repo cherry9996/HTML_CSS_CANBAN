@@ -326,16 +326,16 @@ a{
 }
 
 .bag-img img{
-	width: 220px;
+	width: 100%;
 }
-.bag-img1{
-	width: 200px;
+.bag-img1 img{
+	width: 100%;
 }
-.bag-img2{
-	width: 200px;
+.bag-img2 img{
+	width: 100%;
 }
-.bag-img3{
-	width: 200px;
+.bag-img3 img{
+	width: 100%;
 }
 
 .panel-active .panel-conter{

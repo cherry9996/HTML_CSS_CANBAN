@@ -399,41 +399,6 @@ a{
 	border:  2px solid gray;
 	border-radius: 40px;
 	padding: 5px 10px;
-
-}
-
-.wrap-tank{
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	width: 90%;
-	text-align: center;
-	padding: 20px;
-}
-.wrap-tank :hover{
-	background: gray;
-}
-.tank{
-	margin: 30px;
-}
-
-.tank .tank-conter{
-	overflow: hidden;
-}
-.tank .tank-conter img{
-	max-width: 200px;
-}
-.tank .tank-conter img:hover{
-	transform: scale(1.3);
- 	transition: ease all 3.0s;
-}
-
-.tank-conter span:hover{
-	color: #d87631;
-}
-
-.tank-conter span{
-	color: blue;
 }
 
 .group-pro-vape{

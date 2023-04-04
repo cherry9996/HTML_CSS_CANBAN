@@ -475,6 +475,7 @@ a{
 	margin: 0 0 0 40px;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .list-oil .item-oil:hover{
 	background-color: #fff;
@@ -485,6 +486,16 @@ a{
 	overflow: hidden;
 	width: 220px;
 	min-height: 220px;
+}
+.list-oil .item-oil .wrap-view-more{
+	transform: translateY(0);
+	opacity: 0;
+	transition: 0.2s ease-in-out;
+} 
+.list-oil .item-oil:hover .wrap-view-more{
+	transform: translateY(-80px);
+	opacity: 0;
+	transition: 0.2s ease-in-out;
 }
 .list-oil .item-oil .wrap-view-more .view-more{
 	background-color: #333;

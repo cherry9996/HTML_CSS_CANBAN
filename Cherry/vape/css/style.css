@@ -494,7 +494,7 @@ a{
 } 
 .list-oil .item-oil:hover .wrap-view-more{
 	transform: translateY(-80px);
-	opacity: 0;
+	opacity: 1;
 	transition: 0.2s ease-in-out;
 }
 .list-oil .item-oil .wrap-view-more .view-more{

@@ -484,10 +484,12 @@ a{
 .list-oil .item-oil{
 	width: calc(100% * (1/4) - 40px);
 	margin: 0 0 0 40px;
+	display: flex;
+	justify-content: center;
 }
 .list-oil .item-oil:hover{
 	background-color: #fff;
-	box-shadow: 1px 1px 4px grey;
+	box-shadow: 0 3px 4px grey;
 }
 
 .list-oil .item-oil .bag-img{

@@ -436,15 +436,9 @@ a{
 	color: blue;
 }
 
-.oil-conter{
-/* 	display: flex;
-	justify-content: center;
-	font-size: 12px;
-	margin: 10px;
-	font-family: sans-serif;
-	text-transform: uppercase; */
+.group-oil{
+	margin-bottom: 50px;
 }
-
 .nav-outline a:hover{
 	color: black;
 }

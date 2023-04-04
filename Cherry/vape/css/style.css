@@ -477,35 +477,32 @@ a{
 	text-align: center;
 	padding: 20px; */
 }
-.oil{
+.list-oil{
 	display: flex;
 	margin-left: -20px;
 }
-.oil .oil-conter{
+.list-oil .item-oil{
 	width: calc(100% * (1/4) - 20px);
 	margin: 0 0 0 20px;
 }
-.oil .oil-conter:hover{
-	/* background: gray; */
-}
-.bag-img{
+.list-oil .item-oil .bag-img{
 	overflow: hidden;
 	width: 200px;
 }
-.oil .oil-conter .bag-img img{
-	width: 100%;
+.list-oil .item-oil .bag-img img{
+	width: 100%; 
 }
 
-.oil .oil-conter img:hover{
+.list-oil .item-oil .bag-img img:hover{
 	transform: scale(1.2);
  	transition: ease all 3.0s;
 }
 
-.oil-conter span:hover{
+.list-oil .item-oil  span:hover{
 	color: #d87631;
 }
 
-.oil-conter span{
+.list-oil .item-oil span{
 	color: blue;
 }
 

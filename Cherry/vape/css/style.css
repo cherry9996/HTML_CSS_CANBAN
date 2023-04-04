@@ -485,6 +485,11 @@ a{
 	width: calc(100% * (1/4) - 20px);
 	margin: 0 0 0 20px;
 }
+.list-oil .item-oil a{
+	display: flex;
+	flex-direction: column;
+}
+
 .list-oil .item-oil .bag-img{
 	overflow: hidden;
 	width: 200px;
@@ -497,7 +502,9 @@ a{
 	transform: scale(1.2);
  	transition: ease all 3.0s;
 }
-
+.list-oil .item-oil .flickity {
+	text-align: center;
+}
 .list-oil .item-oil  span:hover{
 	color: #d87631;
 }

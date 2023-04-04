@@ -389,6 +389,7 @@ a{
 	gap: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 .nav-outline li{
 	margin-top: 10px;
@@ -410,7 +411,7 @@ a{
 	padding: 20px;
 }
 .wrap-tank :hover{
-	/* background: gray; */
+	background: gray;
 }
 .tank{
 	margin: 30px;
@@ -485,7 +486,7 @@ a{
 	margin: 0 0 0 20px;
 }
 .oil .oil-conter:hover{
-	background: gray;
+	/* background: gray; */
 }
 .bag-img{
 	overflow: hidden;

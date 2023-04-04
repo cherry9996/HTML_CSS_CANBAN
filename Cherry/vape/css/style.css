@@ -328,6 +328,9 @@ a{
 .bag-img{
 	width: 250px;
 }
+.bag-img1{
+	width: 200px;
+}
 
 .panel-active .panel-conter{
 	overflow: hidden;

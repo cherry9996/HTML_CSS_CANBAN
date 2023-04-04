@@ -488,14 +488,13 @@ a{
 	min-height: 220px;
 }
 .list-oil .item-oil .wrap-view-more{
-	transform: translateY(0);
+	transform: translateY(-50px);
 	opacity: 0;
 	transition: 0.2s ease-in-out;
 } 
 .list-oil .item-oil:hover .wrap-view-more{
-	transform: translateY(-80px);
+	transform: translateY(-115px);
 	opacity: 1;
-	transition: 0.2s ease-in-out;
 }
 .list-oil .item-oil .wrap-view-more .view-more{
 	background-color: #333;

@@ -325,12 +325,10 @@ a{
 	background: gray;
 }
 
-/* .panel-active .panel-conter img{ */
-	/* max-width: 235px; */
-/* } */
 .bag-img{
-	width: 100px;
+	width: 250px;
 }
+
 .panel-active .panel-conter{
 	overflow: hidden;
 }

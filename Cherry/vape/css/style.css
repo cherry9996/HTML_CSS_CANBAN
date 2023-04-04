@@ -476,14 +476,18 @@ a{
 	text-align: center;
 	padding: 20px;
 }
-.wrap-oil :hover{
+.oil .oil-conter{
+	/* overflow: hidden; */
+}
+.oil .oil-conter:hover{
 	background: gray;
 }
-.oil .oil-conter{
+.bag-img{
 	overflow: hidden;
+	width: 200px;
 }
 .oil .oil-conter img{
-	max-width: 200px;
+	width: 100%;
 }
 
 .oil .oil-conter img:hover{

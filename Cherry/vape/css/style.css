@@ -499,9 +499,13 @@ a{
 	transform: scale(1.2);
  	transition: ease all 3.0s;
 }
-.list-oil .item-oil .flickity {
-	text-align: center;
+.list-oil .item-oil .info-oil{
+	width: 200px;
 }
+.list-oil .item-oil .info-oil .flickity{
+	text-align: center;
+} 
+
 .list-oil .item-oil  span:hover{
 	color: #d87631;
 }

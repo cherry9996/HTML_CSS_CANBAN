@@ -225,7 +225,7 @@ a{
 
 .banner{
 	background-size: cover!important;
-	margin: 30px;
+	margin: 20px;
 }
 
 .title-general-icon{
@@ -325,8 +325,11 @@ a{
 	background: gray;
 }
 
-.panel-active .panel-conter img{
+/* .panel-active .panel-conter img{ */
 	max-width: 235px;
+}
+.bag-img{
+	width: 100px;
 }
 .panel-active .panel-conter{
 	overflow: hidden;

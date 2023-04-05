@@ -271,15 +271,6 @@ a{
  	transition: ease all 3.0s;
 }
 
-
-
-/* .nav-menu-upercase li .active{ */
-	/* border:  2px solid gray; */
-	/* border-radius: 40px; */
-	/* padding: 5px 10px; */
-
-/* } */
-
 .wrap-tab-panels{
 	display: flex;
 	align-items: center;

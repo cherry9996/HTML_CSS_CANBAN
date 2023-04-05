@@ -136,7 +136,7 @@ a{
 	padding: 10px;
 }
 
-.list-menu .item-menu{
+.list-menu{
 	position: relative;
 }
 .list-menu .item-menu i{
@@ -172,8 +172,6 @@ a{
 	display: block;
 	position: absolute;
 	top: 20px;
-	left: 0;
-	width: 500px;
 }
 
 .tank-trang{

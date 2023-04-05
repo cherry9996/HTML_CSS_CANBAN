@@ -173,23 +173,7 @@ a{
 .list-menu .item-menu a:hover + .vape-trang{
 	display: block;
 	position: absolute;
-	top: 20px;
-}
-
-.tank-trang{
-	display: none;
-	background-color: #424242;
-	width: 100%;
-	padding: 30px;
-	padding-top: 20px;
-}
-
-.list-menu .item-menu:hover .tank-trang,
-.list-menu .item-menu a:hover + .tank-trang{
-	display: block;
-	position: absolute;
-	top: 20px;
-	left: 0;
+	top: 44px;
 }
 
 .wrap-box{

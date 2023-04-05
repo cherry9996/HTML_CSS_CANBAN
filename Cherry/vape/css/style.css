@@ -255,13 +255,13 @@ a{
 	margin-right: 10px;
 }
 
-.text{
-	display: flex;
-	justify-content: center;
-	font-size: initial;
-	font-weight: 200;
-	padding: 20px;
-}
+/* .text{ */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* font-size: initial; */
+	/* font-weight: 200; */
+	/* padding: 20px; */
+/* } */
 
 .wraper-product{
 	display: flex;

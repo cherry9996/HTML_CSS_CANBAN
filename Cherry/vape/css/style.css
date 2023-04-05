@@ -3,7 +3,6 @@ html{
 }
 body{
 	font-size: 14px;
-	line-height: 25px;
 	background-color: white;
 }
 *{
@@ -28,7 +27,6 @@ a{
 
 .flexbox{
 	display: flex;
-	justify-content: space-between;
 }
 
 .container-box{
@@ -137,9 +135,7 @@ a{
 
 .list-menu{
 	position: relative;
-}
-.list-menu .item-menu {
-	padding: 10px 0;
+	justify-content: space-between;
 }
 .list-menu .item-menu i{
 	color: gray;
@@ -155,14 +151,19 @@ a{
 	color: white;
 	text-align: center;
 	font-family: monospace;
+	padding: 10px 0;
 }
-
+.list-menu .item-menu > a{
+	display: inline-block;
+}
 .vape-trang{
 	display: none;
 	background-color: #424242;
-	width: 100%;
-	padding: 30px;
-	padding-top: 20px;
+}
+.wrap-box{
+	padding: 20px 15px;
+	box-sizing: border-box;
+	display: flex;
 }
 .list-menu .item-menu a:hover{
 	color: orange;
@@ -171,11 +172,7 @@ a{
 .list-menu .item-menu a:hover + .vape-trang{
 	display: block;
 	position: absolute;
-	top: 44px;
-}
-
-.wrap-box{
-	display: flex;
+	top: 35px;
 }
 
 .title-general-online b{
@@ -432,12 +429,27 @@ a{
 .list-jioy{
 	max-width: 150px;
 }
-.col-list{
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 20px;
+.wrap-box .col{
+	margin-right: 30px;
 }
-
+.wrap-box .col:last-child{
+	margin-right: 0;
+}
+.wrap-box .col h3{
+	line-height: 1;
+	color: white;
+	margin-bottom: 10px;
+}
+.col-list{
+	display: flex;
+	flex-direction: column;
+}
+.col-list li{
+	padding: 10px 0;
+}
+.col-list a{
+	color: #333;
+}
 .col-list img{
 	overflow: hidden;
 }

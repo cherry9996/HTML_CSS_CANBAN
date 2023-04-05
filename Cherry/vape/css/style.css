@@ -271,13 +271,9 @@ a{
  	transition: ease all 3.0s;
 }
 
-/* .nav-menu-upercase a:hover{ */
-	/* color: black; */
+/* .nav-menu-upercase a{ */
+	/* color: gray; */
 /* } */
-
-.nav-menu-upercase a{
-	color: gray;
-}
 
 .nav-menu-upercase{
 	display: flex;

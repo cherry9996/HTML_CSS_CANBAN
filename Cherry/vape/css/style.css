@@ -157,10 +157,6 @@ a{
 	font-family: monospace;
 }
 
-.list-menu .item-menu :hover{
-	color: gray;
-}
-
 .vape-trang{
 	display: none;
 	background-color: #424242;

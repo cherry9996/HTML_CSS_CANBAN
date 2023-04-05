@@ -164,7 +164,9 @@ a{
 	padding: 30px;
 	padding-top: 20px;
 }
-
+.list-menu .item-menu a:hover{
+	color: orange;
+}
 .list-menu .item-menu:hover .vape-trang,
 .list-menu .item-menu a:hover + .vape-trang{
 	display: block;

@@ -271,15 +271,9 @@ a{
  	transition: ease all 3.0s;
 }
 
-/* .content{ */
-	/* text-align: center; */
-	/* font-size: 20px; */
-	/* text-transform: uppercase; */
+/* .nav-menu-upercase a:hover{ */
+	/* color: black; */
 /* } */
-
-.nav-menu-upercase a:hover{
-	color: black;
-}
 
 .nav-menu-upercase a{
 	color: gray;

@@ -177,8 +177,11 @@ a{
 	display: block;
 	position: absolute;
 	top: 36px;
-	right: 0;
 	z-index: 9999;
+}
+.list-menu .item-menu:last-child:hover .vape-trang,
+.list-menu .item-menu:last-child a:hover + .vape-trang{
+	right: 0;
 }
 
 .title-general-online b{

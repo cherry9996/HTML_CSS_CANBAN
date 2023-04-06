@@ -634,11 +634,8 @@ a{
 .textwidget a:hover{
 	color: #fcb900;
 }
-.img-charge{
-	text-align: center;
-}
+
 .img-charge img{
-	width: 300px;
 	text-align: center;
 }
 .text{

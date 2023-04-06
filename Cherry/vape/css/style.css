@@ -446,7 +446,6 @@ a{
 	margin-bottom: 10px;
 }
 .col-list{
-	display: flex;
 	flex-direction: column;
 }
 .col-list li{

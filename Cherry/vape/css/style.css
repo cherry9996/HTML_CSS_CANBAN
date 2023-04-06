@@ -58,7 +58,10 @@ a{
 }
 
 .col-right{
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .item-left{
@@ -452,7 +455,7 @@ a{
 	color: #333 !important;
 }
 .col-list a:hover{
-	color: orange !important;
+	color: #333 !important;
 }
 .col-list img{
 	overflow: hidden;

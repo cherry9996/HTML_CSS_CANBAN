@@ -614,7 +614,6 @@ a{
 	font-family: "Roboto", sans-serif;
 }
 .map{
-	margin-right: 10px;
 	padding: 20px 0;
 }
 .blog-15{
@@ -636,7 +635,8 @@ a{
 }
 
 .img-charge img{
-	text-align: center;
+	max-width: 100px ;
+
 }
 .text{
 	text-align: center;

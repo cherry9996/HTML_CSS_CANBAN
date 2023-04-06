@@ -43,6 +43,9 @@ a{
 .nav-center{
 	justify-content: space-between ;
 }
+.wraper-top{
+	justify-content: space-between;
+}
 
 .col-right .item a{
 	color: white;
@@ -58,10 +61,8 @@ a{
 }
 
 .col-right{
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	
+	justify-content: space-between;
 }
 
 .item-left{
@@ -175,7 +176,7 @@ a{
 .list-menu .item-menu a:hover + .vape-trang{
 	display: block;
 	position: absolute;
-	top: 35px;
+	top: 40px;
 	z-index: 9999;
 }
 

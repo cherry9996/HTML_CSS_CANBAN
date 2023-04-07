@@ -573,7 +573,7 @@ a{
 .post p {
 	padding: 15px;
 }
-.post p:hover{
+.form-text .post-meta:hover{
 	color: blue;
 }
 .post div{

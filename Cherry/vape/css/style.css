@@ -536,19 +536,22 @@ a{
 }
 .wrap-blog{
 	text-align: center;
-	display: flex;
+	
 }
 .post{
 	padding: 10px;
 	font-family: "Roboto", sans-serif;
 	font-size: 13px;
 }
+.blog-text .post{
+	background-color: #fff;
+	box-shadow: 0 3px 4px grey;
+}
 
 .post img{
 	max-width: 150px;
 }
 .post-medi{
-	font-weight: revert;
 	font-size: 20px;
 }
 .meta-blog{
@@ -573,11 +576,12 @@ a{
 .post p {
 	padding: 15px;
 }
-.form-text .post-meta:hover{
+.post p:hover{
 	color: blue;
 }
 .post div{
 	font-size: 12px;
+	padding: 5px 0;
 }
 
 .is-divider{
@@ -641,7 +645,7 @@ a{
 	text-align: center;
 }
 .img-logo-blog img{
-	max-width: 250px;
+	max-width: 20px;
 }
 .text{
 	text-align: center;

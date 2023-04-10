@@ -180,8 +180,11 @@ a{
 	z-index: 9999;
 }
 .list-menu .item-menu:last-child:hover .vape-trang,
-.list-menu .item-menu:last-child a:hover + .vape-trang{
+.list-menu .item-menu:last-child a:hover + .vape-trang,
+.list-menu .item-menu:nth-last-child(2):hover .vape-trang,
+.list-menu .item-menu:nth-last-child(2) a:hover + .vape-trang{
 	right: 0;
+	width: max-content;
 }
 
 .title-general-online b{

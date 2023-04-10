@@ -449,9 +449,7 @@ a{
 	color: orange;
 	margin-bottom: 10px;
 }
-.wrap-box:hover{
-	color: orange;
-}
+
 .col-list{
 	flex-direction: column;
 }

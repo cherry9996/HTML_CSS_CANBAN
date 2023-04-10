@@ -549,10 +549,13 @@ a{
 }
 
 .post img{
-	max-width: 150px;
+	width: 200px;
 }
 .post-medi{
 	font-size: 20px;
+}
+.badge-inner{
+	border: 2px solid currentcolor;
 }
 .meta-blog{
 	display: flex;
@@ -645,7 +648,7 @@ a{
 	text-align: center;
 }
 .img-logo-blog img{
-	max-width: 20px;
+	width: 210px;
 }
 .text{
 	text-align: center;
